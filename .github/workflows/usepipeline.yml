@@ -4,7 +4,7 @@ jobs:
   write_things:
     runs-on: ubuntu-latest
     steps:
-    -uses: action/checkouts@master
+    -uses: action/checkout@master
      with:
       ref: refs/heads/master
     -uses: actions/setup-node@v1
