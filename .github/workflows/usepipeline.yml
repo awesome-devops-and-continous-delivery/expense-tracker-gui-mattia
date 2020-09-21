@@ -4,11 +4,11 @@ jobs:
   write_things:
     runs-on: ubuntu-latest
     steps:
-    -uses: action/checkout@master
-     with:
-      ref: refs/heads/master
-    -uses: actions/setup-node@v1
-     with:
+    - uses: action/checkout@master
+      with:
+       ref: refs/heads/master
+    - uses: actions/setup-node@v1
+      with:
        node-version: 12.x
-    -name: Write Things
-     runs: echo "Mammamia la monnezza che ho fatto" 
+    - name: Write Things
+      runs: echo "Mammamia la monnezza che ho fatto" 
